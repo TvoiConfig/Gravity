@@ -1,0 +1,201 @@
+/* Основные стили */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #4CAF50; /* Зеленый цвет заголовков */
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Стили для баннера */
+.banner {
+    color: #fff;
+    height: 60vh;
+    text-align: center;
+    background-image: url('../MEDIA/oEHxGY_sHlE.jpg'); 
+    background-position: center;
+}
+
+.banner2 {
+    color: #fff;
+    height: 60vh;
+    text-align: center;
+    background-image: url('../MEDIA/banner2.jpg'); 
+    background-position: center;
+}
+
+/* Стили для секции О нас */
+.about-us {
+    background-color: #f9f9f9;
+}
+
+.about-us .img-placeholder img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Добавляем скругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+}
+
+/* Стили для отзывов */
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial .img-placeholder img {
+    width: 100px; /* Ширина изображения пользователя */
+    height: 100px; /* Высота изображения пользователя */
+    border-radius: 50%; /* Делаем изображение кругом */
+    object-fit: cover; /* Изображение будет обрезаться, чтобы сохранить пропорции */
+    margin: 0 auto 15px; /* Центрируем изображение и добавляем отступ снизу */
+}
+
+/* Стили для футера */
+.footer {
+    background-color: #333;
+}
+
+.footer p, .footer a {
+    margin: 0;
+    color: #ccc;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+/* Стили для карточек услуг */
+.service-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.service-card img {
+    border-radius: 10px;
+    height: 200px; /* Фиксированная высота изображения */
+    object-fit: cover;
+    width: 100%; /* Изображение будет занимать всю ширину контейнера */
+}
+
+.service-card h3 {
+    color: #4CAF50; /* Зеленый цвет для заголовков */
+    margin-top: 15px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.service-card:hover {
+    transform: translateY(-10px); /* Легкий подъем карточки при наведении */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Усиленная тень при наведении */
+}
+
+/* Стили для карточек */
+.service-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Анимация для секции посещений */
+.pricing-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    margin-bottom: 1.5rem;
+}
+.pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для страницы контактов */
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #4CAF50;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* Стили для встроенной карты */
+.yandex-map {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
